@@ -1,0 +1,198 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1586; Version 2009; 64bit' Language: 'pt' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Fabio-bala-de-canhao
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64082
+Successfully changed project path to: E:/Fabio-bala-de-canhao
+E:/Fabio-bala-de-canhao
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 106.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Fabio-bala-de-canhao/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5968 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003205 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 196.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3925.
+Total: 2.833500 ms (FindLiveObjects: 0.356000 ms CreateObjectMapping: 0.104500 ms MarkObjects: 2.222200 ms  DeleteObjects: 0.149700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Player/Respawn
+  artifactKey: Guid(86a197b2d291a844fbc24c2d316cbc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Respawn using Guid(86a197b2d291a844fbc24c2d316cbc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e331ec5281fcee75c7061177afa85c') in 0.011489 seconds
+  Import took 0.017486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.771273 seconds.
+  path: Assets/Player/Respawn/Respawn.cs
+  artifactKey: Guid(d492badb4fff4ea4c9e367219ba4da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Respawn/Respawn.cs using Guid(d492badb4fff4ea4c9e367219ba4da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2984dd102225b716f26f9a6dabf9be93') in 0.042619 seconds
+  Import took 0.048943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011074 seconds.
+  path: Assets/Player/Respawn/Respawn.cs
+  artifactKey: Guid(d492badb4fff4ea4c9e367219ba4da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Respawn/Respawn.cs using Guid(d492badb4fff4ea4c9e367219ba4da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2984dd102225b716f26f9a6dabf9be93') in 0.002402 seconds
+  Import took 0.008055 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005075 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.2 MB.
+System memory in use after: 193.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3929.
+Total: 3.055700 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.443000 ms  DeleteObjects: 0.121100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.3 MB.
+System memory in use after: 193.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3931.
+Total: 3.005600 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.394600 ms  DeleteObjects: 0.156200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 445.169985 seconds.
+  path: Assets/Player/Respawn/Respawn.cs
+  artifactKey: Guid(d492badb4fff4ea4c9e367219ba4da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Respawn/Respawn.cs using Guid(d492badb4fff4ea4c9e367219ba4da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881dbf2cfe30cd46865521fe4d8df5b8') in 0.007670 seconds
+  Import took 0.013644 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.3 MB.
+System memory in use after: 193.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3933.
+Total: 3.163200 ms (FindLiveObjects: 0.457500 ms CreateObjectMapping: 0.124000 ms MarkObjects: 2.456300 ms  DeleteObjects: 0.124300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.160315 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/1.unity
+  artifactKey: Guid(c732593fe76e5a84197f9cd13963f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/1.unity using Guid(c732593fe76e5a84197f9cd13963f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a607d8df912e9d70d6a3f833d03100d') in 0.020244 seconds
+  Import took 0.026128 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
