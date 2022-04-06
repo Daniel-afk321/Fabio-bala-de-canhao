@@ -63,8 +63,9 @@
     <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
     <Compile Include="Assets\Player\Scripts\GameManager.cs" />
     <Compile Include="Assets\CollectableGem\Audio\GemCollectedAudioModifier.cs" />
-    <Compile Include="Assets\Player\Scripts\Player.cs" />
     <Compile Include="Assets\Player\Respawn\Respawn.cs" />
+    <Compile Include="Assets\Player\Scripts\Player.cs" />
+    <Compile Include="Assets\Mensagem\Mensagem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
