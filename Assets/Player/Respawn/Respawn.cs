@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 {
-    private Player jogador;
     [SerializeField] private Transform RespawnPoint;
 
     void Start()
     {
-        jogador = GetComponent<Player>();
     }
-
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        jogador.transform.position = RespawnPoint.transform.position;
-
+        other.transform.position = RespawnPoint.transform.position;
+        other.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 
 }

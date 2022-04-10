@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public Transform freelook;
+    public Animator animador;
     public float force;
     public float Jumpforce;
+    public Text pontuacao;
+    public int pontos;
+    private bool canjump;
+    public GameObject bola;
+    public GameObject monstro;
 
     Rigidbody rb;
     float hor;
@@ -17,16 +24,20 @@ public class Player : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animador = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        pontuacao.text = pontos.ToString();
+
         hor = Input.GetAxis("Horizontal");
         ver = Input.GetAxis("Vertical");
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && canjump)
         {
             rb.AddForce(Vector3.up * Jumpforce);
+            canjump = false;
         }
 
     }
@@ -39,6 +50,20 @@ public class Player : MonoBehaviour
 
         direction = camFoward * ver + camRight * hor;
         rb.AddForce(direction * force);
+        if (hor == 0 && ver == 0)
+        {
+            rb.velocity = new Vector3(0, rb.velocity.y, 0);
+            bola.SetActive(false);
+            monstro.SetActive(true);
+            animador.enabled = false;
+            transform.rotation = new Quaternion(0f, 0f, 0f,0f);
+        }
+        else 
+        {
+            bola.SetActive(true);
+            monstro.SetActive(false);
+            animador.enabled = true;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -50,12 +75,16 @@ public class Player : MonoBehaviour
             GameManager.INSTANCE.ChangeCam(tmpTriggerCam.cam);
         }
 
-
-
-        /*if (other.CompareTag("Trigger"))
+        if (other.gameObject.tag == "coletavel") 
         {
-            CinemachineVirtualCamera tmpCam = other.GetComponent<TriggerCam>().cam;
-            GameManager.INSTANCE.ChangeCam(tmpCam);
-        }*/
+            other.gameObject.SetActive(false);
+        pontos++;
+        }
+
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        canjump = true;
+    }
+
 }

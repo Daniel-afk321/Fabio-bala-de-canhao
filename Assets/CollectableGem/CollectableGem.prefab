@@ -5055,12 +5055,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4532368491988960}
-  - component: {fileID: 114504696268370078}
   - component: {fileID: 2760603081388594738}
   - component: {fileID: 8160320724131339300}
   m_Layer: 0
   m_Name: CollectableGem
-  m_TagString: Untagged
+  m_TagString: coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5081,21 +5080,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114504696268370078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764816090862790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a2dd6832e2f464290469455d78feaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemVisuals: {fileID: 1601460820210686}
-  collectedParticleSystem: {fileID: 1367530902061474}
-  gemCollider: {fileID: 0}
 --- !u!114 &2760603081388594738
 MonoBehaviour:
   m_ObjectHideFlags: 0
