@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/1.unity
+    path: Assets/Scenes/1.unity
     guid: c732593fe76e5a84197f9cd13963f706
   - enabled: 1
     path: Assets/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/2.unity
