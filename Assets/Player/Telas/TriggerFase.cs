@@ -8,7 +8,7 @@ public class TriggerFase : MonoBehaviour
     {
         if (hit.tag == "Player")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("fase1");
         }
     }
 }

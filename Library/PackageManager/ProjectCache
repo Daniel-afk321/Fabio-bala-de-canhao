@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: E:/Fabio-bala-de-canhao/Packages/manifest.json
+    m_FilePath: C:/Users/Eduardo/Documents/UNITY/Fabio-bala-de-canhao/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637845435502708679
-    m_Hash: 1909645428
+      ticks: 637847839994879985
+    m_Hash: 3232525668
   m_LockFileStatus:
-    m_FilePath: E:/Fabio-bala-de-canhao/Packages/packages-lock.json
+    m_FilePath: C:/Users/Eduardo/Documents/UNITY/Fabio-bala-de-canhao/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637851513536512013
+      ticks: 637852745214050819
     m_Hash: 866536823
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.11
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.cinemachine@2.6.11
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.cinemachine@2.6.11
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -184,7 +184,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.7.1
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.collab-proxy@1.7.1
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.collab-proxy@1.7.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -327,7 +327,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.7
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ide.rider@3.0.7
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ide.rider@3.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -436,7 +436,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.11
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -529,7 +529,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -602,7 +602,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.5.2
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.probuilder@4.5.2
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.probuilder@4.5.2
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -744,7 +744,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.27
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.test-framework@1.1.27
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.test-framework@1.1.27
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -847,7 +847,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1014,7 +1014,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.5.6
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.timeline@1.5.6
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.timeline@1.5.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1245,7 +1245,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.6.1
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.visualscripting@1.6.1
       assetPath: Packages/com.unity.visualscripting
       name: com.unity.visualscripting
       displayName: Visual Scripting
@@ -3086,7 +3086,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3149,7 +3149,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.3
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.settings-manager@1.0.3
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.settings-manager@1.0.3
       assetPath: Packages/com.unity.settings-manager
       name: com.unity.settings-manager
       displayName: Settings Manager
@@ -3165,23 +3165,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
         - 1.0.3
-        - 2.0.0
-        - 2.0.1
         compatible:
-        - 0.1.0-preview.4
-        - 0.1.0-preview.8
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
         - 1.0.3
-        - 2.0.0
-        - 2.0.1
         verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
@@ -3198,12 +3184,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637300096300000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
         revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
@@ -3211,7 +3197,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: E:\Fabio-bala-de-canhao\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\Eduardo\Documents\UNITY\Fabio-bala-de-canhao\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3220,7 +3206,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: library
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3235,32 +3221,12 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.0-preview.2
-        - 1.0.0-preview.3
-        - 1.0.0-preview.4
-        - 1.0.1-preview.1
         - 1.1.2
-        - 2.0.0-preview
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
         - 2.0.0
-        - 2.0.1-preview.1
-        - 2.0.2
-        - 3.0.1
         compatible:
-        - 1.0.0-preview.2
-        - 1.0.0-preview.3
-        - 1.0.0-preview.4
-        - 1.0.1-preview.1
         - 1.1.2
-        - 2.0.0-preview
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
         - 2.0.0
-        - 2.0.1-preview.1
-        - 2.0.2
-        - 3.0.1
-        verified: 2.0.2
+        verified: 2.0.0
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3276,7 +3242,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637237898320000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3286,5 +3252,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: E:/Fabio-bala-de-canhao/Packages
+m_ProjectPath: C:/Users/Eduardo/Documents/UNITY/Fabio-bala-de-canhao/Packages
 m_EditorVersion: 2020.2.7f1 (c53830e277f1)
