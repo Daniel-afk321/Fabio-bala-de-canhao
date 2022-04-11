@@ -12,22 +12,25 @@ public class Respawn : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+
+
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
-        /*
         Time.timeScale = 1;
         botao_reiniciar.SetActive(true);
         botao_sair.SetActive(true);
-        */
+
     }
-/*
-    public void reiniciarcena() 
+
+
+    public void reiniciarcena()
     {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
         Time.timeScale = 1;
         botao_reiniciar.SetActive(false);
         botao_sair.SetActive(false);
+        
     }
 
     public void saicena()
@@ -37,5 +40,4 @@ public class Respawn : MonoBehaviour
         botao_sair.SetActive(false);
         Application.Quit();
     }
-*/
 }
